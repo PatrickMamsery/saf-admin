@@ -109,8 +109,12 @@ return [
     */
 
     'resource' => [
-        'stylesheets' => [],
-        'scripts'     => [],
+        'stylesheets' => [
+            '/css/custom.css'
+        ],
+        'scripts'     => [
+            '/js/custom.js'
+        ],
     ],
 
     /*
