@@ -24,4 +24,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: "cd /var/www/dev/saf/admin && ./.scripts/deploy.sh"
+          script: "cd /var/www/dev/sacctz/saf-admin && ./.scripts/deploy.sh"
